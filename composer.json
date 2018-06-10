@@ -2,7 +2,9 @@
     "name": "iswin/borm",
     "description": "Набор комманд для работы с битрикс highload блоками, как с обычными entities в doctrine/orm",
     "type": "library",
+    "version": "1.0-beta",
     "require": {
+        "php": "^7.0.8",
         "doctrine/orm": "^2.6",
         "symfony/orm-pack": "^1.0",
         "symfony/maker-bundle": "^1.5",
