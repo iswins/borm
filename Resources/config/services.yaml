@@ -1,0 +1,13 @@
+services:
+
+  Iswin\Borm\Command\DiffCommand:
+    tags:
+      - { name: 'console.command' }
+
+  Iswin\Borm\Command\MigrateCommand:
+    tags:
+      - { name: 'console.command' }
+
+  Iswin\Borm\Command\MigrationExecCommand:
+    tags:
+      - { name: 'console.command' }

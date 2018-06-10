@@ -1,0 +1,22 @@
+{
+    "name": "iswin/borm",
+    "description": "Набор комманд для работы с битрикс highload блоками, как с обычными entities в doctrine/orm",
+    "type": "library",
+    "require": {
+        "doctrine/orm": "^2.6",
+        "symfony/orm-pack": "^1.0",
+        "symfony/maker-bundle": "^1.5",
+        "symfony/yaml": "^4.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Taneev Vitaly",
+            "email": "taneev@iswin.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": { "Iswin\\Borm\\": "" }
+    }
+}
